@@ -1,0 +1,200 @@
+
+
+
+/* Base styles */
+body {
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    text-align: center;
+    padding: 24px 20px;
+}
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Heading Session */
+.headingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#043A53;
+}
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:.5rem;
+    color:#043A53;
+}
+.logoRectangleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .10rem;
+}
+.logoRectangle1 {
+	width: 8px;
+	height: 30px;
+	transform: skew(-30deg);
+	background:#043A53;
+    opacity:20%;
+}
+.logoRectangle2 {
+	width: 10px;
+	height: 30px;
+	transform: skew(-30deg);
+	background: #043A53;
+    opacity:50%;
+}
+.logoRectangle3 {
+	width: 15px;
+	height: 30px;
+	transform: skew(-30deg);
+	background:#043A53;
+}
+.logoText {
+    color:#043A53;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* NAV Session */
+.navContainer{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;   
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:40px;
+    a{
+        text-decoration: none;
+        color:#12141D;
+    }
+    a:hover {
+       color: #043A53;
+    }
+}
+/*background: #12141D;text
+background: #FFFFFF;  button */
+
+/* Button Session */
+.buttonContainer{
+    font-weight:bold;
+}
+button{
+    padding:8px 16px;
+    border-radius: 42px;
+    gap:10px;
+    border: none;
+    font-weight: bold;
+}
+.buttonLogIn{
+    color:#043A53;
+    background-color:#FFFFFF;
+}
+.buttonSignUp{
+    color: #FFFFFF;
+    background-color:#043A53 ;
+}
+
+/* First Section Main Content */
+
+.firstSection{
+    background-color: red;
+}
+.firstSectionContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:100px 120px;
+    gap:10px;
+}
+.leftImage{
+    /* background-color:yellowgreen; */
+}
+.centerTextContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: white;
+}
+.centerTextHeading{
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 64px;
+    text-align: center;
+}
+.centerText{
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.centerTextButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    button{
+        width: 141;
+        height: 60;
+        color: #FFFFFF;
+        background-color: #043A53;
+        gap: 25px;
+        padding-top: 16px 24px;
+        border-radius: 55px;
+        box-shadow: 0px 23px 47px 0px #043A533D;
+    }
+}
+/* .videoIconContainer{
+    display: flex;
+} */
+.videoIconLink{
+    text-decoration: none;
+}
+.videoIconHolder{
+    height:100%;
+    width:100%;
+    background-color: green;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap:10px;
+}
+.videoIcon{
+    height:12px;
+    width:12px;
+    background-color: black;
+    padding:12px;
+    border-radius: 32px;
+}
+.videoIconText{
+    
+}
+
+
+
+
+
+.rightImage{
+    background-color:green;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header, footer {
+        padding: 0.5rem;
+    }
+}
