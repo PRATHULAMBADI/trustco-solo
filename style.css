@@ -12,8 +12,8 @@ header, footer {
     padding: 24px 20px;
 }
 main {
-    padding: 2rem;
-    text-align: center;
+    padding:0;
+    /* text-align: center; */
 }
 
 /* Heading Session */
@@ -160,7 +160,7 @@ button{
 .videoIconHolder{
     height:100%;
     width:100%;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     align-items: center;    
     justify-content: center;
@@ -182,7 +182,7 @@ button{
 
 
 .rightImage{
-    background-color:green;
+    /* background-color:green; */
 }
 
 
@@ -198,3 +198,206 @@ button{
         padding: 0.5rem;
     }
 }
+
+
+/* Second Section */
+
+.secondSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background: #FFFFFF; */
+    background-color: yellow;      
+    gap: 64px;
+    padding: 50px 150px;
+
+}
+
+/* ThirdSectionHeading */
+.thirdSection{
+    text-align: center;
+    background-color:#043A53;
+}
+.thirdSectionTextContainer{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    text-align: bottom;
+    padding: 5% 10%;
+}
+.thirdSectionHeading{
+    width: 50%;
+    font-size: 60px;
+    font-family: Lato;
+    text-align: left;
+
+}
+.thirdSectionHeading1{
+    color: #FFFFFF;
+}
+.thirdSectionHeading2{
+    color:#F0B73F;
+}
+.thirdSectionText{
+    width:35%;
+    color: #FFFFFF;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+/* FouthSection */
+
+.fouthSectionContainer{
+    padding: 5%;
+    gap:5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fouthSectionMainTile{
+    width:20%;
+    gap:5%;
+}
+
+.fouthSectionButton{
+    color: #FFFFFF;
+    background-color: #043A53;
+}
+.fouthSectionHeading{    
+    padding:8% 0;
+    font-size: 350%;
+    text-align: left;
+
+}
+.fouthSectionTileHolder{
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+}
+
+.fouthSectionTile{
+    padding: 3%;
+    width:25%;
+    background-color: #F2F5F6;
+
+    align-items: left;
+    text-align: left;
+    border-radius: 5%;
+    
+}
+.fouthSectionTileimage{
+    width:80px;
+    height:80px;
+}
+.fouthSectionTileHeading{
+    padding: 5% 0;
+    font-weight:bold;
+    font-size:24px;
+}
+.fouthSectionTilecontent{
+    font-size: 18px;
+}
+
+
+/* Fifth Section */
+
+.fifthSection{
+    font-family: 'lato';
+    background-color: black;
+    padding: 100px 150px;
+}
+.fifthSectionContainer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* gap:64px; */
+}
+
+.fifthSectionTile{
+    background-color: Yellow;
+}
+
+.fifthSectionTileValue{
+    font-size: 60px;
+    color: #043A53;
+
+}
+
+.fifthSectionTileText{
+    color: #404040;
+    font-weight: bold;
+}
+
+/* Sixth Section */
+
+.sixthSection{
+    background-color: red;
+}
+.sixthSectionContainer{
+    padding: 100px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sixthSectionLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 32px;
+}
+.sixthSectionHeading{
+    color: #12141D;
+    font-weight: 700;
+    font-size: 60px;
+}
+.sixthSectionText{
+    font-weight: 400;
+    font-size: 24px;
+}
+.sixthSectionFounderName{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sixthSectionFounder{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+}
+.sixthSectionManImageIconHolder{
+    background-color: #043A53;
+    height: 300px;
+    width: 81px;
+    position: relative;
+    left: 426px;
+    bottom: 674px;
+    border-radius: 47px;
+}
+.sixthSectionManImage{
+    width: 626px;
+    height: 574px;
+    top: -39.85px;
+    left: 22px;
+    border-radius: 16px;
+}
+.sixthSectionCircleImageWomen{
+    position: relative;
+    left: 0px;
+    bottom: 250px;
+    border:1px white;
+}
+.sixthSectionManImageIcon{
+    background-color: #043A53;
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+    padding: 19%;
+}
+
