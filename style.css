@@ -343,14 +343,15 @@ button{
     padding: 100px 150px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
-.sixthSectionLeft{
-    display: flex;
-    flex-direction: column;
+.sixthSectionTextContainer{
+    display: grid    ;
+    background-color: blue;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     gap: 32px;
+    background-color: blue;
 }
 .sixthSectionHeading{
     color: #12141D;
@@ -371,24 +372,57 @@ button{
     font-weight: 400;
     font-size: 16px;
 }
-.sixthSectionManImageIconHolder{
+.sixthSectionTextContainerButtonHolder{
+    /* display: flex;
+    align-items: center;
+    justify-content: left; */
+}
+.sixthSectionTextContainerButtonIcon{
+    border-radius: 32px;
+    background: #F2F5F629;
+    width:10%;
+    height:10%;
+    
+}
+.sixthSectionTextContainerButton{
+    background-color: #043A53;
+    color:#F2F5F6;
+    color: #F2F5F6;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 25px;
+    padding: 16px 16px 16px 24px;
+    border-radius: 55px;
+    
+}
+
+.sixthSectionImageContainer{
+    background-color: yellowgreen;
+    height: 600px;
+}
+
+.sixthSectionIconHolder{
     background-color: #043A53;
     height: 300px;
     width: 81px;
     position: relative;
-    left: 426px;
-    bottom: 674px;
+    left: 433px;
+    bottom: 725px;
     border-radius: 47px;
+    z-index: 1;
 }
 .sixthSectionManImage{
-    width: 626px;
-    height: 574px;
-    top: -39.85px;
-    left: 22px;
-    border-radius: 16px;
+    height:650px;
+    width:650px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 23px 47px 0px #043A533D;    
 }
 .sixthSectionCircleImageWomen{
     position: relative;
+    z-index: 3;
     left: 0px;
     bottom: 250px;
     border:1px white;
@@ -401,3 +435,211 @@ button{
     padding: 19%;
 }
 
+/* Seventh Session */
+
+.seventhSessionContainer{
+    background-color: greenyellow;
+    display: flex;
+    align-items: top ;
+    justify-content: center;
+    gap:13%;
+}
+.seventhSessionImageSessions{
+    background-color:blue;
+    width: 50%;
+    height: 150vh;
+}
+.seventhSessionImageSessionsCircle{
+    background-color: #043A53;
+    border-radius: 150px;
+    border: 4px white solid;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    bottom: 297px;
+    left: 506px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seventhSessionImageSessionsCircleIcon{
+    background-color:#043A53;
+    border-radius:50px;
+    /* padding:8px; */
+}
+.seventhSessionImageSessionsCircleAward{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 48px;
+}
+.seventhSessionImageSessionsCircleAwardName{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+.seventhSessionImageSessionsCircleAwardYear{
+    font-weight:400 ;
+}
+
+    
+.seventhSessionTextContainer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 135px 150px 0 0;
+    gap: 40px;
+
+}
+.seventhSessionText{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+}
+.seventhSessionTextHeading{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.seventhSessionTextHeading1{
+    color: #12141D;
+}
+.seventhSessionTextHeading2{
+    color: #92A7B0;
+
+}
+
+
+.seventhSectionTextContainerButtonHolder{
+
+}
+.seventhSectionTextContainerButton{
+    width:220px;
+    background-color: #043A53;
+    color: #F2F5F6;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 16px 16px 16px 16px;
+    border-radius: 55px;
+    gap:20%;
+}
+.seventhSectionTextContainerButtonIcon{
+    border-radius: 32px;
+    background: #F2F5F629;
+    padding:5%;
+}
+
+.eighthSession{
+    background-color:Green;
+}
+.eighthSessionContainer{
+    height:500px;
+    background-color: red;
+}
+.eighthSessionContainerHeadingSession{
+    font-family: 'Lato';
+    display:flex;
+    /* font-size:50px; */
+    background-color: yellow;
+    align-items: center;
+    justify-content: space-around;
+}
+.eighthSessionContainerHeading{
+    font-size: 60px;
+    font-weight:700;
+}
+.eighthSessionContainerHeadingSeeAll{
+    display: flex;
+    color: #12141D;
+    gap:10px;
+}
+.eighthSessionContainerHeadingSeeAllIcon{
+    padding: 5px;
+    width: 12px;
+    height: 12px;
+}
+
+
+.ninethSession{
+    background-color: blue;
+}
+
+.ninethSessionContainer{
+    height:500px;
+    background-color: green;
+}
+.ninethSessionContainerHeadingSession{
+    font-family: 'Lato';
+    display:flex;
+    /* font-size:50px; */
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-around;
+}
+.ninethSessionContainerHeading{
+    font-size: 60px;
+    font-weight:700;
+}
+.ninethSessionContainerHeadingSeeAll{
+    display: flex;
+    color: #12141D;
+    gap:10px;
+}
+.ninethSessionContainerHeadingSeeAllIcon{
+    padding: 5px;
+    width: 12px;
+    height: 12px;
+}
+
+
+.ninethSessionTileContainer{
+    
+}
+.ninethSessionTile1{
+    background-color: blue;
+    width: 40%;
+    /* width:100%; */
+    display: grid;
+    gap: 5%;
+}
+.ninethSessionTile1Image{
+    width: 350px;
+    height:250px;
+}
+.ninethSessionTileDate{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.ninethSessionTileBy{
+    font-family: Lato;
+font-weight: 400;
+font-size: 16px;
+}
+.ninethSessionTileHeading{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 24px;    
+}
+.ninethSessionTileContent{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;    
+}
+.ninethSessionReadMore{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;    
+}
