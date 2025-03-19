@@ -11,6 +11,9 @@ header, footer {
     text-align: center;
     padding: 24px 20px;
 }
+header{
+    background-color: #F2F5F6;
+}
 main {
     padding:0;
     /* text-align: center; */
@@ -22,6 +25,8 @@ main {
     align-items: center;
     justify-content: space-between;
     color:#043A53;
+    background-color:#F2F5F6;
+    ;
 }
 .logoContainer {
     display: flex;
@@ -34,24 +39,24 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .10rem;
+    gap: 5%;
 }
 .logoRectangle1 {
-	width: 8px;
+	width:11px;
 	height: 30px;
 	transform: skew(-30deg);
 	background:#043A53;
     opacity:20%;
 }
 .logoRectangle2 {
-	width: 10px;
+	width: 13px;
 	height: 30px;
 	transform: skew(-30deg);
 	background: #043A53;
     opacity:50%;
 }
 .logoRectangle3 {
-	width: 15px;
+	width: 18px;
 	height: 30px;
 	transform: skew(-30deg);
 	background:#043A53;
@@ -105,7 +110,7 @@ button{
 /* First Section Main Content */
 
 .firstSection{
-    background-color: red;
+    background-color: #F2F5F6;
 }
 .firstSectionContainer{
     display:flex;
@@ -121,7 +126,6 @@ button{
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background-color: white;
 }
 .centerTextHeading{
     font-family: 'Lato';
@@ -169,45 +173,34 @@ button{
 .videoIcon{
     height:12px;
     width:12px;
-    background-color: black;
     padding:12px;
     border-radius: 32px;
+    background-color: #003049;
 }
 .videoIconText{
-    
+    color:#003049
 }
-
-
-
-
-
 .rightImage{
     /* background-color:green; */
 }
-
-
 /* Responsive Design */
 @media (max-width: 768px) {
     main {
         padding: 1rem;
     }
 }
-
 @media (max-width: 480px) {
     header, footer {
         padding: 0.5rem;
     }
 }
-
-
 /* Second Section */
 
 .secondSection{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background: #FFFFFF; */
-    background-color: yellow;      
+    background-color: #FFFFFF;   
     gap: 64px;
     padding: 50px 150px;
 
@@ -307,7 +300,6 @@ button{
 
 .fifthSection{
     font-family: 'lato';
-    background-color: black;
     padding: 100px 150px;
 }
 .fifthSectionContainer{
@@ -320,7 +312,6 @@ button{
 }
 
 .fifthSectionTile{
-    background-color: Yellow;
 }
 
 .fifthSectionTileValue{
@@ -337,7 +328,6 @@ button{
 /* Sixth Section */
 
 .sixthSection{
-    background-color: red;
 }
 .sixthSectionContainer{
     padding: 100px 150px;
@@ -347,11 +337,9 @@ button{
 }
 .sixthSectionTextContainer{
     display: grid    ;
-    background-color: blue;
     justify-content: center;
     align-items: center;
     gap: 32px;
-    background-color: blue;
 }
 .sixthSectionHeading{
     color: #12141D;
@@ -399,7 +387,6 @@ button{
 }
 
 .sixthSectionImageContainer{
-    background-color: yellowgreen;
     height: 600px;
 }
 
@@ -414,11 +401,10 @@ button{
     z-index: 1;
 }
 .sixthSectionManImage{
-    height:650px;
+    height:586px;
     width:650px;
     position: relative;
-    z-index: 2;
-    box-shadow: 0px 23px 47px 0px #043A533D;    
+    z-index: 2;    
 }
 .sixthSectionCircleImageWomen{
     position: relative;
@@ -436,16 +422,16 @@ button{
 }
 
 /* Seventh Session */
-
+.seventhSession{
+    height: 750px;
+}
 .seventhSessionContainer{
-    background-color: greenyellow;
     display: flex;
     align-items: top ;
     justify-content: center;
     gap:13%;
 }
 .seventhSessionImageSessions{
-    background-color:blue;
     width: 50%;
     height: 150vh;
 }
@@ -467,7 +453,6 @@ button{
     flex-direction: column;
     gap: 10px;
 }
-
 .seventhSessionImageSessionsCircleIcon{
     background-color:#043A53;
     border-radius:50px;
@@ -486,9 +471,7 @@ button{
 }
 .seventhSessionImageSessionsCircleAwardYear{
     font-weight:400 ;
-}
-
-    
+}    
 .seventhSessionTextContainer{
     
     display: flex;
@@ -496,7 +479,6 @@ button{
     align-items: left;
     padding: 135px 150px 0 0;
     gap: 40px;
-
 }
 .seventhSessionText{
     font-family: Lato;
@@ -508,16 +490,12 @@ button{
     font-weight: 700;
     font-size: 60px;
 }
-
 .seventhSessionTextHeading1{
     color: #12141D;
 }
 .seventhSessionTextHeading2{
     color: #92A7B0;
-
 }
-
-
 .seventhSectionTextContainerButtonHolder{
 
 }
@@ -525,7 +503,6 @@ button{
     width:220px;
     background-color: #043A53;
     color: #F2F5F6;
-    /* background-color: black; */
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -538,51 +515,121 @@ button{
     background: #F2F5F629;
     padding:5%;
 }
-
-.eighthSession{
-    background-color:Green;
+.eighthSession {
 }
-.eighthSessionContainer{
-    height:500px;
-    background-color: red;
+.eighthSessionContainer {
+    height: 500px;
 }
-.eighthSessionContainerHeadingSession{
+.eighthSessionContainerHeadingSession {
     font-family: 'Lato';
-    display:flex;
-    /* font-size:50px; */
-    background-color: yellow;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.eighthSessionContainerHeading{
+.eighthSessionContainerHeading {
     font-size: 60px;
-    font-weight:700;
+    font-weight: 700;
 }
-.eighthSessionContainerHeadingSeeAll{
+.eighthSessionContainerHeadingSeeAll {
     display: flex;
     color: #12141D;
-    gap:10px;
+    gap: 10px;
 }
-.eighthSessionContainerHeadingSeeAllIcon{
+.eighthSessionContainerHeadingSeeAllIcon {
     padding: 5px;
     width: 12px;
     height: 12px;
 }
-
-
+.eighthSessionCarouselCotainer {
+    font-family: 'Lato';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.eighthSessionCarouselWrapper {
+    display: flex;
+    width: 200%;
+    animation: slideAnimation 10s infinite linear;
+    gap: 5%;
+}
+.eighthSessionCarouselTile {
+    background-color: #FFFFFF;
+    width: 40%;
+    border-radius: 16px;
+    padding: 16px;
+    display: grid;
+    gap: 24px;
+    flex: 0 0 46%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 24px;
+}
+.eighthSessionCarouselTileNameSession {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 12px;
+}
+.eighthSessionCarouselTilePersonName {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+}
+.eighthSessionCarouselTilePersonDetails {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+}
+@keyframes slideAnimation {
+    0%, 20% { transform: translateX(0%); }
+    25%, 40% { transform: translateX(-56%); }
+    45%, 60% { transform: translateX(-107%); }
+    65%, 80% { transform: translateX(-56%); }
+    85%, 100% { transform: translateX(0%); }
+    /* 
+    0%, 50% { transform: translateX(0%); }
+    50%, 75% { transform: translateX(-100%); }
+    100% { transform: translateX(0%); } 
+    */
+}
+.eighthSessionCarouselDots {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.eighthSessionCarouselDot {
+    width: 12px;
+    height: 12px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+.eighthSessionCarouselDot.active {
+    background-color: #003049; /* Dark blue as shown in the image */
+    width: 24px;
+    border-radius: 8px;
+}
 .ninethSession{
-    background-color: blue;
 }
 
 .ninethSessionContainer{
-    height:500px;
-    background-color: green;
+    background-color: #FFFFFF;
+
 }
 .ninethSessionContainerHeadingSession{
     font-family: 'Lato';
     display:flex;
-    /* font-size:50px; */
-    background-color: whitesmoke;
     align-items: center;
     justify-content: space-around;
 }
@@ -600,21 +647,36 @@ button{
     width: 12px;
     height: 12px;
 }
-
-
 .ninethSessionTileContainer{
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 100px 150px;
 }
-.ninethSessionTile1{
-    background-color: blue;
-    width: 40%;
-    /* width:100%; */
-    display: grid;
-    gap: 5%;
+.ninethSessionTile{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border:1px solid #F2F5F6;
 }
-.ninethSessionTile1Image{
-    width: 350px;
-    height:250px;
+.ninethSessionTile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.ninethSessionTileImage{
+    width:100%;
+    border-radius: 5px 5px 0 0
+}
+.ninethSessionTileText{
+    padding:12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.ninethSessionTileTextDateByHolder{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
 }
 .ninethSessionTileDate{
     font-family: Lato;
@@ -625,8 +687,8 @@ button{
 }
 .ninethSessionTileBy{
     font-family: Lato;
-font-weight: 400;
-font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
 }
 .ninethSessionTileHeading{
     font-family: Lato;
@@ -642,4 +704,367 @@ font-size: 16px;
     font-family: Lato;
     font-weight: 700;
     font-size: 18px;    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 9px;
+    img{
+        width:17px;
+        height:13px;
+    }
+}
+.ninethSessionTileArrowIcon{
+    width: 5%;
+    height:5%;
+}
+
+/* Tenth Session */
+.tenthSession{
+    height: 525px;
+}
+.tenthSessionContainer{
+    background-color:#12141D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 150px;
+}
+.tenthSessionTextContainer{
+    /* position:relative; */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tenthSessionTextContainerHeading{
+    width:150%;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+
+}
+.tenthSessionTextContainerButton{
+    width:46%;
+    background-color: #F0B73F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding : 16px  16px 16px 24px;
+    border-radius: 55px;
+    button{
+        background-color: #F0B73F;
+        color:#FFFFFF;
+        border-radius: 24px;
+    }
+}
+.tenthSessionTextContainerButtonContainerText{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 70%;
+    padding: 24px 10px;
+}
+.tenthSessionImageContainer{
+    z-index: 3;
+}
+.tenthSessionImageContainerCrown{
+    width: 80px;
+    position: relative;
+    left: 637px;
+    bottom: 148px;
+    z-index: 1;
+}
+.tenthSessionImageContainerIconsStar{
+    background-color: #043A53;
+    height: 168px;
+    width: 95px;
+    align-items: center;
+    padding: 0;
+    border-radius: 60px 60px 0 0;
+    position: relative;
+    left: 1105px;
+    bottom: 242px;
+    z-index: 4;
+    img{
+        padding: 12%;
+    }
+    
+}
+.tenthSessionImageContainerIconsSearch{
+    background-color: #F0B73F;
+    height: 300px;
+    width: 95px;
+    border-radius: 60px 60px 0 0;
+    position: relative;
+    left: 1266px;
+    bottom: 543px;
+    z-index: 2;
+    img{
+        padding: 12%;
+    }
+
+}
+
+/* Eleventh Session */
+
+.eleventhSession{
+
+}
+.eleventhSessionContainer{
+    padding: 100px 150px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1%;
+}
+.eleventhSessionlogoContainer{
+    display: grid;
+    gap: 20px;
+}
+.eleventhSessionIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5%;
+    img{
+        background: #D7E0E5;
+        padding: 5%;
+        border-radius: 22px;        
+    }
+}
+.eleventhSessionTextContent{
+    width:28%;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    color: #404040;
+
+
+}
+.eleventhSessionHomeMenu,.eleventhSessionAboutUsMenu{
+    display: grid;
+    gap: 15%;
+}
+.eleventhSessionHomeMenuHeading,.eleventhSessionAboutUsMenuHeading{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 24px;
+    color: #12141D;
+
+}
+.eleventhSessionHomeMenuItem,.eleventhSessionAboutUsMenuItem{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    color: #404040;
+
+
+}
+
+/* Twelfth Session */
+
+.twelfthSessionContainer{
+    background-color: #F2F5F6;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+}
+.twelfthSessionMain{
+    background-color: white;
+    width: 550px;
+    margin: 31px;
+    border-radius: 14px;
+    border: 1px solid #888888;
+}
+.twelfthSessionMainText{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px;
+    color:#444444;
+    span{
+        color:#6439FF;
+        ;
+    }
+}
+.twelfthSessionCollaborators{
+    text-align: center;
+    padding-top: 26px;
+    color:#444444;
+}
+.twelfthSessionCollaboratorsImages{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #F2F5F6;
+
+}
+.footerLanguage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5%
+}
+
+/* contact.html CSS */
+
+.contactTileSessionHeading{
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 80px;
+    text-align: center;
+    color: #12141D;
+    background-color: #F2F5F6;
+}
+.contactTileSessionText{
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    background-color: #F2F5F6;
+    padding: 0 408px;
+}
+.contactTileHolder{
+    padding:50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5%;
+    background-color:#F2F5F6
+}
+.contactTile{
+    padding:20px;
+    width: 250px;
+    height:200px;
+    display: grid;
+    gap:10px;
+    background-color: #FFFFFF;
+}
+
+.contactTileLinkcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:5%;
+    padding:20%;
+}
+
+/* Message Session */
+.messageUssession{
+    background-color: #ffffff;
+}
+
+.messageUssessionInput{
+    gap:5%;
+    padding:0 10%;
+    textarea{
+        width: 1156px;
+        height: 150px;
+        padding: 12px;
+        border: 1px solid #91A7B0;
+        border-radius: 5px;
+        font-size: 14px;
+gap: 15px;
+border-radius: 10px;
+
+    }
+}
+.messageUssessionInputAlign{
+    padding:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%
+    
+}
+
+
+.messageUsName{
+    background-image: url('./images/messageUs1.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    background-position: 10px 10px; 
+    border: 1px solid #91A7B0;
+    padding: 12px 20px 12px 64px;
+
+}
+.messageUsEmailAddress{
+    background-image: url('./images/messageUs2.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    background-position: 10px 10px; 
+    border: 1px solid #91A7B0;
+    padding: 12px 20px 12px 64px;
+}
+.messageUsCompanyName{
+    background-image: url('./images/messageUs3.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    background-position: 10px 10px; 
+    border: 1px solid #91A7B0;
+    padding: 12px 20px 12px 64px;
+}
+.messageUsContactNumber{
+    background-image: url('./images/messageUs4.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    background-position: 10px 10px; 
+    border: 1px solid #91A7B0;
+    padding: 12px 20px 12px 64px;
+}
+.messageUssessionButton{
+    
+    button{
+        background-color:#043A53;
+        color:#FFFFFF;
+        padding: 18px 50px;
+    }
+}
+.messageUssessionDeclaration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 170px;
+    gap:2%;
+    img{
+        padding:5%;
+        background-color:#F2F5F6;
+        border-radius: 32px;
+        width:15px;
+        height:15px;
+
+    }
+}
+.messageUssessionDeclarationText{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:2%;
+}
+.messageUssessionDeclarationCheckboxText{
+    width: 260px;
 }
