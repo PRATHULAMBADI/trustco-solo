@@ -187,6 +187,7 @@ button{
 @media (max-width: 768px) {
     main {
         padding: 1rem;
+
     }
 }
 @media (max-width: 480px) {
@@ -518,6 +519,7 @@ button{
 .eighthSession {
 }
 .eighthSessionContainer {
+    padding:100px 0;
     height: 500px;
 }
 .eighthSessionContainerHeadingSession {
@@ -964,7 +966,14 @@ footer{
     gap:5%;
     padding:20%;
 }
+@media (max-width:786px) { 
+    body{
+    background-color:cyan;
+    }
+    .contactTileSessionHeading{
+        font: size 16px;    }
 
+}
 /* Message Session */
 .messageUssession{
     background-color: #ffffff;
@@ -980,9 +989,8 @@ footer{
         border: 1px solid #91A7B0;
         border-radius: 5px;
         font-size: 14px;
-gap: 15px;
-border-radius: 10px;
-
+        gap: 15px;
+        border-radius: 10px;
     }
 }
 .messageUssessionInputAlign{
@@ -991,10 +999,7 @@ border-radius: 10px;
     align-items: center;
     justify-content: center;
     gap: 5%
-    
 }
-
-
 .messageUsName{
     background-image: url('./images/messageUs1.png');
     background-repeat: no-repeat;
